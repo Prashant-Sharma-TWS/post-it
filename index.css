@@ -1,0 +1,86 @@
+/* Universal selector */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* some basic style */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: #303030;
+}
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #303030;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style-type: none;
+}
+
+body {
+  overflow-x: hidden;
+  height: 110vh;
+}
+
+/* on-scrolling */
+.scrolling-active {
+  box-shadow: 1px 1px 8px rgb(170, 164, 164);
+}
+/* header style */
+header {
+  width: 100vw;
+  position: fixed;
+}
+
+.navbar-fixed {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  padding: 15px 0px 18px;
+}
+.navbar-fixed > a {
+  font-size: 28px;
+  color: rgb(29, 28, 28);
+}
+.search-post {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.search-post li {
+  width: 200px;
+  border: 1px solid #303030;
+}
+.search-post li div {
+  margin-top: -10px;
+}
+.search-post li div label {
+  margin-left: 10px;
+  padding: 0px 2px;
+  font-weight: 600;
+  font-family: "Barlow Semi Condensed", sans-serif;
+  color: black;
+  background-color: white;
+}
+.search-post li div input {
+  width: 100%;
+  margin: 3px 0px 0px;
+  padding: 5px 8px;
+  border: none;
+}
+.search-post li div input:focus {
+  outline: none !important;
+}
+
