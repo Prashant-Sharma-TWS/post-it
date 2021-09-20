@@ -25,27 +25,43 @@
       <ul class="search-post">
         <li>
           <div>
-            <label for="content">Search by 'Content'</label>
-            <input type="text" placeholder="Type Something" id="content">
+            <label>Search by 'Content'</label>
+            <input type="text" placeholder="Type Something">
           </div>
         </li>
         <li>
           <div>
-            <label for="name">Search by 'Name'</label>
-            <input type="text" placeholder="Type Name" id="name">
+            <label>Search by 'Name'</label>
+            <input type="text" placeholder="Type Name">
           </div>
         </li>
         <li>
           <div>
-            <label for="date">Search by 'Date'</label>
-            <input type="date" id="date">
+            <label>Search by 'Date'</label>
+            <input type="date">
           </div>
         </li>
       </ul>
     </div>
   </header>
 
-  
+  <!-- main -->
+  <main>
+    <div class="post-here">
+    </div>
+    <div>
+      <div class="create-post">
+        <h3>New Post</h3>
+        <div><textarea id="commitment" name="commitment" placeholder="Type your thoughts"></textarea></div>
+        <button type="submit" class="postforever">Post Forever</button>
+      </div>
+      <div class="user-detail">
+        <h4 id="name">Prashant Sharma</h4>
+        <p id="date">15sep 2021</p>
+      </div>
+      
+    </div>
+  </main>
   
   <!-- script for the page -->
   <script src="index.js"></script>
