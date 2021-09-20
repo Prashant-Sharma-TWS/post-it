@@ -114,25 +114,9 @@ main > div {
   content: '•';
   margin-right: 5px;
 }
-.new-commit h3 {
+.new-commit h4 {
   width: 33%;
   margin-left: auto;
-}
-.post-here .commits {
-  width: 65%;
-}
-.post-here .user-detail {
-  width: 35%;
-  margin-left: 15px;
-}
-.post-here .commits p, .post-here .user-detail p {
-  margin: 15px 0px;
-}
-.post-here .commits p {
-  margin-left: 15px;
-}
-.post-here .commits p::before {
-  content: '•';
 }
 main > div:nth-child(2) {
   display: flex;

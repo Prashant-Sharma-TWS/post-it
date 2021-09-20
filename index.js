@@ -14,14 +14,14 @@ postForever.addEventListener("click", () => {
   var newCommit = document.createElement('div');
   newCommit.setAttribute('class', 'new-commit');
   var para = document.createElement('p'); 
-  var h3 = document.createElement('h3'); 
+  var h4 = document.createElement('h4'); 
 
   var name = document.getElementById('name');
   var date = document.getElementById('date');
   para.textContent = text.value;
-  h3.textContent = '- ' + name.textContent + ' : ' + date.textContent;
+  h4.textContent = '- ' + name.textContent + ' : ' + date.textContent;
   newCommit.append(para);
-  newCommit.append(h3);
+  newCommit.append(h4);
   postHere.append(newCommit);
   text.value = '';
 });
